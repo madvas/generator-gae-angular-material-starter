@@ -1,0 +1,33 @@
+{
+  "name": "generator-generator-gae-angular-material-starter",
+  "version": "0.0.1",
+  "description": "Google App Engine Angular Material Starter generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "madvas/generator-gae-angular-material-starter",
+  "author": {
+    "name": "Matus Lestan",
+    "email": "",
+    "url": "https://github.com/madvas"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator", "GAE", "Google App Engine", "AngularJS", "Angular Material", "Flask"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.9",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
