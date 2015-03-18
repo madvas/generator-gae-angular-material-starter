@@ -1,6 +1,6 @@
 {
-  "name": "generator-generator-gae-angular-material-starter",
-  "version": "0.0.1",
+  "name": "generator-gae-angular-material-starter",
+  "version": "0.0.2",
   "description": "Google App Engine Angular Material Starter generator",
   "license": "MIT",
   "main": "app/index.js",
@@ -20,7 +20,7 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator", "GAE", "Google App Engine", "AngularJS", "Angular Material", "Flask"
+    "yeoman-generator", "GAE", "Google App Engine", "AngularJS", "Angular Material", "Flask", "Seed", "Starter"
   ],
   "dependencies": {
     "yeoman-generator": "^0.18.9",

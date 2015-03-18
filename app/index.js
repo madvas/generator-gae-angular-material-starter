@@ -24,8 +24,6 @@ module.exports = yeoman.generators.Base.extend({
             }
         ];
 
-        this.log('hello world');
-
         var otherPrompts = [
             {
                 name    : 'gaeAppName',
@@ -39,7 +37,6 @@ module.exports = yeoman.generators.Base.extend({
 
         this.prompt(firstPrompt, function(props) {
             me.appName = props.appName;
-            me.log('your app is called ' + me.appName);
             otherPrompts[0].default = me.appName;
             me.prompt(otherPrompts, function(props2) {
                 me.gaeAppName = props2.gaeAppName;
